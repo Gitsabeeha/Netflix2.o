@@ -1,0 +1,30 @@
+.movieContainer{
+  margin-top: 0;
+  
+  }
+  /* .movieContainer .images :hover{
+    width: 220px;
+    height: 175px;
+    transition: 0.3s;
+  } */
+
+
+body{
+    background-color: rgb(40, 40, 40);
+}
+
+
+h4{
+   
+    color: white;
+    font-size:large ;
+
+}
+.imagecard{
+  width: 156px;
+  height:215px ;
+}
+.imagecard:hover{
+ border: 7px solid rgb(240, 8, 8);
+ transition: 0.5s ease;
+}

@@ -1,0 +1,49 @@
+{
+  "name": "my-ecomm",
+  "homepage": "https://Gitsabeeha.github.io",
+  "version": "0.1.0",
+  "private": false,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "firebase": "^10.3.1",
+    "gh-pages": "^6.0.0",
+    "movie-trailer": "^3.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-multi-carousel": "^2.8.4",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "5.0.1",
+    "react-youtube": "^10.1.0",
+    "react-youtube-embed": "^1.0.3",
+    "styled-components": "^6.0.8",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

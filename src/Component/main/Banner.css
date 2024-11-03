@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ytube{
+    position:absolute;
+    top: 0;
+    height: 100%;
+   width: 100%;
+   overflow: hidden;
+   
+}
+.Banner{
+    position: relative;
+    width: 100%;
+}
+
+
+.Blogo{
+width:100px;
+position:absolute;
+z-index: 999;
+left: 10px;
+top: 12px;
+}
+.detail{
+    width: 40%;
+    color: white;
+    position: absolute;
+    top: 14rem;
+    left: 7rem;
+}
+.btnp{
+background-color:rgb(31, 31, 31,0.7);
+width: 7rem;
+height: 2.5rem;
+color: white;
+margin: 6px;
+}
+h1{
+    font-size: 3rem
+}
+.fade_bottom{
+    width: 100%;
+    position: absolute;
+    top: 40.5rem;
+    height: 7rem;
+   background-image: linear-gradient(180deg,
+   transparent,
+   rgb(37,37,37,0.50),
+  rgb(40,40,40));
+}
+@media  (max-width:850px) and (min-width:700px){
+   
+    .detail{
+        width: 60%;
+        color: white;
+        position: absolute;
+        top: 6rem;
+        left: 7rem;
+       
+    }
+    h1{
+        font-size:2rem;
+    }
+    .btnp{
+        width:30%;
+    }
+}
+@media (max-width:700px) and (min-width:555px){
+    .detail{
+        width: 40%;
+        color: white;
+        position: absolute;
+        top: 3rem;
+        left: 4rem;
+       
+    }
+    h1{
+        font-size:1.5rem;
+    }
+    .btnp{
+        width:40%;
+    }
+    .fade_bottom{
+        width: 100%;
+        position: absolute;
+        top: 19.3rem;
+        height: 5rem;
+       background-image: linear-gradient(180deg,
+       transparent,
+       rgb(37,37,37,0.50),
+      rgb(40,40,40));
+    }
+}
+@media (max-width:555px)and (min-width:435px) {
+    .detail{
+        width: 50%;
+        color: white;
+        position: absolute;
+        top: 2rem;
+        left: 3rem;
+       
+    }
+    .btnp{
+        width:30%;
+        font-size: smaller;
+        height: 30%;
+    }
+    
+    h1{
+        font-size:2rem;
+    }
+    .fade_bottom{
+        width: 100%;
+        position: absolute;
+        top: 14.2rem;
+        height: 5rem;
+       background-image: linear-gradient(180deg,
+       transparent,
+       rgb(37,37,37,0.50),
+      rgb(40,40,40));
+    }
+}
+    @media (max-width:435px){
+        .Blogo{
+            width:60px;
+            position:absolute;
+            z-index: 999;
+            left: 0;
+            top: 0;
+            }
+        .detail{
+            width: 60%;
+            color: white;
+            position: absolute;
+            top: 1rem;
+            left: 1.5rem;
+            
+        }
+        .btnp{
+            width:30%;
+            font-size: smaller;
+            height: 30%;
+            
+        }
+
+        h1{
+            font-size:1.7rem;
+        }
+        p{
+            font-size: 60%;
+        }
+        .fade_bottom{
+            width: 100%;
+            position: absolute;
+            top: 7.8rem;
+            height: 5rem;
+           background-image: linear-gradient(180deg,
+           transparent,
+           rgb(37,37,37,0.50),
+          rgb(40,40,40));
+        }
+    }
+
